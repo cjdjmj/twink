@@ -205,7 +205,7 @@ function UILibrary.Load(GUITitle)
 	MenuBar = ScrollingFrame()
 	MenuBar.Name = "MenuBar"
 	MenuBar.BackgroundTransparency = 0.7
-	MenuBar.BackgroundColor3 = Color3.fromRGB(117, 108, 64)
+	MenuBar.BackgroundColor3 = Color3.fromRGB(20,20,20)
 	MenuBar.Size = UDim2.new(0,100,0,235)
 	MenuBar.Position = UDim2.new(0,5,0,30)
 	MenuBar.CanvasSize = UDim2.new(0,0,0,0)
@@ -213,7 +213,7 @@ function UILibrary.Load(GUITitle)
 	
 	DisplayFrame = RoundBox(5)
 	DisplayFrame.Name = "Display"
-	DisplayFrame.ImageColor3 = Color3.fromRGB(117, 108, 64)
+	DisplayFrame.ImageColor3 = Color3.fromRGB(20,20,20)
 	DisplayFrame.Size = UDim2.new(1,-115,0,235)
 	DisplayFrame.Position = UDim2.new(0,110,0,30)
 	DisplayFrame.Parent = MainFrame
