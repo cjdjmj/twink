@@ -520,7 +520,7 @@ function UILibrary.Load(GUITitle)
 			PickerRightSide.ImageColor3 = DefaultColour
 			PickerRightSide.Parent = PickerContainer
 			
-			PickerFrame.ImageColor3 = Color3.fromRGB(35,35,35)
+			PickerFrame.ImageColor3 = Color3.fromRGB(117, 108, 64)
 			PickerFrame.Size = UDim2.new(1,-22,0,60)
 			PickerFrame.Position = UDim2.new(0,0,0,20)
 			PickerFrame.Parent = PickerContainer
