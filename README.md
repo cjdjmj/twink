@@ -197,7 +197,7 @@ function UILibrary.Load(GUITitle)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Size = UDim2.new(1,-50,1,-30)
 	MainFrame.Position = UDim2.new(0,25,0,15)
-	MainFrame.ImageColor3 = Color3.fromRGB(117, 108, 64)
+	MainFrame.ImageColor3 = Color3.fromRGB(30,30,30)
 	MainFrame.Parent = ContainerFrame
 	
 	local MenuBar, DisplayFrame, TitleBar
@@ -213,7 +213,7 @@ function UILibrary.Load(GUITitle)
 	
 	DisplayFrame = RoundBox(5)
 	DisplayFrame.Name = "Display"
-	DisplayFrame.ImageColor3 = Color3.fromRGB(117, 108, 64)
+	DisplayFrame.ImageColor3 = Color3.fromRGB(20,20,20)
 	DisplayFrame.Size = UDim2.new(1,-115,0,235)
 	DisplayFrame.Position = UDim2.new(0,110,0,30)
 	DisplayFrame.Parent = MainFrame
@@ -303,7 +303,7 @@ function UILibrary.Load(GUITitle)
 					if Button:IsA("GuiObject") then
 						local IsButton = string.find(Button.Name:lower(), PageContainer.Name:lower())
 						local Button2 = Button:FindFirstChild(Button.Name.."Button")
-						Tween(Button, {ImageColor3 = IsButton and Color3.fromRGB(117, 108, 64) or Color3.fromRGB(40,40,40)})
+						Tween(Button, {ImageColor3 = IsButton and Color3.fromRGB(50,50,50) or Color3.fromRGB(40,40,40)})
 						Tween(Button2, {TextTransparency = IsButton and 0 or 0.5})
 					end
 				end
@@ -426,7 +426,7 @@ function UILibrary.Load(GUITitle)
 			
 			local LabelForeground = RoundBox(5)
 			LabelForeground.Name = "LabelForeground"
-			LabelForeground.ImageColor3 = Color3.fromRGB(117, 108, 64)
+			LabelForeground.ImageColor3 = Color3.fromRGB(45,45,45)
 			LabelForeground.Size = UDim2.new(1,0,1,0)
 			LabelForeground.Parent = LabelContainer
 			
@@ -520,7 +520,7 @@ function UILibrary.Load(GUITitle)
 			PickerRightSide.ImageColor3 = DefaultColour
 			PickerRightSide.Parent = PickerContainer
 			
-			PickerFrame.ImageColor3 = Color3.fromRGB(117, 108, 64)
+			PickerFrame.ImageColor3 = Color3.fromRGB(35,35,35)
 			PickerFrame.Size = UDim2.new(1,-22,0,60)
 			PickerFrame.Position = UDim2.new(0,0,0,20)
 			PickerFrame.Parent = PickerContainer
@@ -674,7 +674,7 @@ function UILibrary.Load(GUITitle)
 			FlatRight.Size = UDim2.new(0,5,1,0)
 			FlatRight.Parent = ToggleRightSide
 			
-			EffectFrame.BackgroundColor3 = ThisToggle and Color3.fromRGB(117, 108, 64) or Color3.fromRGB(117, 108, 64)
+			EffectFrame.BackgroundColor3 = ThisToggle and Color3.fromRGB(0,255,109) or Color3.fromRGB(255,160,160)
 			EffectFrame.Position = UDim2.new(1,-22,0.2,0)
 			EffectFrame.Size = UDim2.new(0,2,0.6,0)
 			EffectFrame.Parent = ToggleContainer
